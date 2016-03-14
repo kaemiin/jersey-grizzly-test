@@ -2,7 +2,7 @@ package test.jersey;
 
 import org.glassfish.hk2.utilities.binding.AbstractBinder;
 import org.glassfish.jersey.server.ResourceConfig;
-import test.jersey.service.TestService;
+import test.jersey.service.DraftService;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Feature;
@@ -18,9 +18,9 @@ public class APIApplication extends ResourceConfig {
 
     public APIApplication() {
 
-        final Set<Class<?>> classes = new HashSet<Class<?>>();
+        final Set<Class<?>> classes = new HashSet<>();
 
-        classes.add(TestService.class);
+        classes.add(DraftService.class);
 
         this.registerClasses(classes);
 

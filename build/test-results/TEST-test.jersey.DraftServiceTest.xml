@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.jersey.DraftServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-03-14T03:38:59" hostname="KMs-Macintosh.local" time="2.311">
+  <properties/>
+  <testcase name="testSendFromDraftNewWay" classname="test.jersey.DraftServiceTest" time="1.886"/>
+  <testcase name="testSendFromDraftOldFashionedWay" classname="test.jersey.DraftServiceTest" time="0.424"/>
+  <system-out><![CDATA[https://61.218.18.170/JerseyTest/draft/1234/send/new?SESSIONID=d4367d26-f15d-4fc0-bd6a-e1abca0ad153
+https://61.218.18.170/JerseyTest/draft/1234/send/oldfashionedway?SESSIONID=96e8870b-f7ec-4f40-b4f4-829efddf269f
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
